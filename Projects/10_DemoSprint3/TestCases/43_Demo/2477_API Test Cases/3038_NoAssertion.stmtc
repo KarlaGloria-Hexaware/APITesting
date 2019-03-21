@@ -1,0 +1,120 @@
+[
+  {
+    "TempId": 3038,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 5,
+    "uri": "https://restool-sample-app.herokuapp.com/api/contacts/",
+    "DataSheet": null,
+    "Scenario": null,
+    "TestSteps": [
+      {
+        "TempId": 12260,
+        "StepNumber": 1,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://restool-sample-app.herokuapp.com/api/contacts/454647789",
+        "Status": "Pending",
+        "UserSays": "454647789",
+        "BotSays": "{\n   \"id\": \"454647789\",\n   \"name\": \"John Snow\",\n   \"email\": \"john.snow@gmail.com\",\n   \"thumbnail\": \"https://thoughtcatalog.files.wordpress.com/2016/04/jon-snow.jpg\",\n   \"phone\": {\n      \"mobile\": 111,\n      \"work\": 222\n   },\n   \"friends\": [{\n      \"name\": \"Daniel\",\n      \"id\": 12\n   }],\n   \"numbers\": [\n      123,\n      2,\n      5\n   ]\n}",
+        "Parameters": [],
+        "Assertions": [
+          {
+            "TempId": 170,
+            "Step_id": 12260,
+            "AssertionType": 1,
+            "Expected": "200",
+            "Actual": "200",
+            "OutputMessage": "Status code: Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 171,
+            "Step_id": 12260,
+            "AssertionType": 2,
+            "Expected": "[{\"id\":\"88889008\",\"name\":\"Daenerys Targaryen\",\"email\":\"daenerys.targaryen@gmail.com\",\"thumbnail\":\"http://ll-c.ooyala.com/e1/0zbzl1YjE6aGieXwWfDiAGcsck10zWb9/promo323723448\",\"phone\":{\"mobile\":111,\"work\":222},\"friends\":[{\"name\":\"Jonathan\",\"id\":12}],\"numbers\":[123,2,5]},{\"id\":\"687909\",\"name\":\"Cersei Lannister\",\"email\":\"cersei.lannister@gmail.com\",\"thumbnail\":\"http://ll-c.ooyala.com/e1/BlZGp3YjE6OQJHsmhE_76TXhkgzBoQDe/promo324259790\",\"phone\":{\"mobile\":111,\"work\":222},\"friends\":[],\"numbers\":[]},{\"id\":\"890709\",\"name\":\"Night King\",\"email\":\"night.king@gmail.com\",\"thumbnail\":\"https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/14/12/night-king.jpg\",\"phone\":{\"mobile\":111,\"work\":222}},{\"name\":\"\",\"email\":\"\",\"thumbnail\":\"\",\"phone\":{\"work\":\"\",\"mobile\":\"\"},\"numbers\":\"[]\",\"friends\":\"[]\",\"id\":\"1552589870552\"},{\"name\":\"Blad\",\"id\":\"1552591186099\"},{\"name\":\"Blad\",\"id\":\"1552591287889\"},{\"name\":\"Deya D\",\"id\":\"1552591775746\"},{\"name\":\"Deya D\",\"id\":\"1552592171147\"},{\"name\":\"Deya D\",\"id\":\"1552592405677\"}]",
+            "Actual": "",
+            "OutputMessage": "",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 172,
+            "Step_id": 12260,
+            "AssertionType": 4,
+            "Expected": "name : John Snow",
+            "Actual": " John Snow",
+            "OutputMessage": "Expected:  John Snow<br>Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 173,
+            "Step_id": 12260,
+            "AssertionType": 4,
+            "Expected": "phone : {\"mobile\":111,\"work\":222}",
+            "Actual": " {\"mobile\":111,\"work\":222}",
+            "OutputMessage": "Expected:  {\"mobile\":111,\"work\":222}<br>Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 174,
+            "Step_id": 12260,
+            "AssertionType": 3,
+            "Expected": "111",
+            "Actual": "{\n   \"id\": \"454647789\",\n   \"name\": \"John Snow\",\n   \"email\": \"john.snow@gmail.com\",\n   \"thumbnail\": \"https://thoughtcatalog.files.wordpress.com/2016/04/jon-snow.jpg\",\n   \"phone\": {\n      \"mobile\": 111,\n      \"work\": 222\n   },\n   \"friends\": [{\n      \"name\": \"Daniel\",\n      \"id\": 12\n   }],\n   \"numbers\": [\n      123,\n      2,\n      5\n   ]\n}",
+            "OutputMessage": "ResponseBody - contains: Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          }
+        ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12261,
+        "StepNumber": 2,
+        "ActionId": 80,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://restool-sample-app.herokuapp.com/api/contacts/",
+        "Status": "Pending",
+        "UserSays": "{\r\n\"name\" : \"Blad\"\r\n}",
+        "BotSays": "",
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "NoAssertion",
+    "Created": null,
+    "Modified": null
+  }
+]
