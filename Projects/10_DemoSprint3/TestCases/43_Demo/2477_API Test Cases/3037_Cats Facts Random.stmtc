@@ -11,7 +11,7 @@
     "Scenario": null,
     "TestSteps": [
       {
-        "TempId": 12257,
+        "TempId": 12276,
         "StepNumber": 1,
         "ActionId": 79,
         "ComponentId": null,
@@ -30,8 +30,8 @@
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 165,
-            "Step_id": 12257,
+            "TempId": 180,
+            "Step_id": 12276,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "200",
@@ -46,7 +46,7 @@
         "Modified": null
       },
       {
-        "TempId": 12258,
+        "TempId": 12277,
         "StepNumber": 2,
         "ActionId": 79,
         "ComponentId": null,
@@ -65,8 +65,8 @@
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 166,
-            "Step_id": 12258,
+            "TempId": 181,
+            "Step_id": 12277,
             "AssertionType": 4,
             "Expected": "text : In an average year, cat owners in the United States spend over $2 billion on cat food.",
             "Actual": " In an average year, cat owners in the United States spend over $2 billion on cat food.",
@@ -76,8 +76,8 @@
             "Modified": null
           },
           {
-            "TempId": 167,
-            "Step_id": 12258,
+            "TempId": 182,
+            "Step_id": 12277,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "200",
@@ -92,7 +92,7 @@
         "Modified": null
       },
       {
-        "TempId": 12259,
+        "TempId": 12278,
         "StepNumber": 3,
         "ActionId": 79,
         "ComponentId": null,
@@ -111,8 +111,8 @@
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 168,
-            "Step_id": 12259,
+            "TempId": 183,
+            "Step_id": 12278,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "",
@@ -122,8 +122,8 @@
             "Modified": null
           },
           {
-            "TempId": 169,
-            "Step_id": 12259,
+            "TempId": 184,
+            "Step_id": 12278,
             "AssertionType": 3,
             "Expected": "Horses",
             "Actual": "",
@@ -133,6 +133,29 @@
             "Modified": null
           }
         ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12275,
+        "StepNumber": 4,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://cat-fact.herokuapp.com/",
+        "Status": "Pending",
+        "UserSays": "",
+        "BotSays": "",
+        "Parameters": [],
+        "Assertions": [],
         "Name": null,
         "Created": null,
         "Modified": null
