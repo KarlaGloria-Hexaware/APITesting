@@ -1,0 +1,178 @@
+[
+  {
+    "TempId": 7004,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 12522,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 12522,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7004,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12523,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "0",
+              "ParameterId": 12523,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7004,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 12524,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "www.google.com",
+              "ParameterId": 12524,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7004,
+          "Name": "DT_URL",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "TestWeb",
+      "Created": null,
+      "Modified": null
+    },
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 29910,
+        "StepNumber": 1,
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "DT_URL",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 29911,
+        "StepNumber": 2,
+        "ActionId": 43,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": 4,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": "q",
+        "Value": "Cats",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 29912,
+        "StepNumber": 3,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "5",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 29909,
+        "StepNumber": 4,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "5",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "GRDomainNameandId": null,
+    "Name": "TestWeb",
+    "Created": null,
+    "Modified": null
+  }
+]
