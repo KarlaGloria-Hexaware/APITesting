@@ -1,0 +1,421 @@
+[
+  {
+    "TempId": 5021,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 5482,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 5482,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "2",
+              "ParameterId": 5482,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 3,
+              "Value": "3",
+              "ParameterId": 5482,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 4,
+              "Value": "4",
+              "ParameterId": 5482,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5021,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 5483,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "0",
+              "ParameterId": 5483,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "0",
+              "ParameterId": 5483,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 3,
+              "Value": "0",
+              "ParameterId": 5483,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 4,
+              "Value": "1",
+              "ParameterId": 5483,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5021,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 5484,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "10,20,30",
+              "ParameterId": 5484,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "40,50,60",
+              "ParameterId": 5484,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 3,
+              "Value": "70,80,90",
+              "ParameterId": 5484,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 4,
+              "Value": "100,200,300",
+              "ParameterId": 5484,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5021,
+          "Name": "DT_Value",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 5485,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "Enter+",
+              "ParameterId": 5485,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "Enter+",
+              "ParameterId": 5485,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 3,
+              "Value": "Enter+",
+              "ParameterId": 5485,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 4,
+              "Value": "Enter+",
+              "ParameterId": 5485,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5021,
+          "Name": "DT_Enter",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 5486,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 5486,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "2",
+              "ParameterId": 5486,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 3,
+              "Value": "3",
+              "ParameterId": 5486,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 4,
+              "Value": "4",
+              "ParameterId": 5486,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5021,
+          "Name": "DT_abc",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "Google",
+      "Created": null,
+      "Modified": null
+    },
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 12568,
+        "StepNumber": 1,
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "navigate",
+        "Locator": null,
+        "Value": "www.google.com",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12569,
+        "StepNumber": 2,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "wait",
+        "Locator": null,
+        "Value": "2",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12570,
+        "StepNumber": 3,
+        "ActionId": 1,
+        "ComponentId": null,
+        "CustomActionId": 1196,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "testBlocksAndSteps",
+        "Locator": null,
+        "Value": "DT_Value",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12571,
+        "StepNumber": 4,
+        "ActionId": 43,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": 4,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": "textbox",
+        "Locator": "q",
+        "Value": "Hexaware",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12572,
+        "StepNumber": 5,
+        "ActionId": 54,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": "enter+",
+        "Locator": null,
+        "Value": "DT_Enter",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12573,
+        "StepNumber": 6,
+        "ActionId": 21,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": "back",
+        "Locator": null,
+        "Value": null,
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 12574,
+        "StepNumber": 7,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 3,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "wait ",
+        "Locator": null,
+        "Value": "3",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "Google",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 1196,
+    "Description": "",
+    "Code": "////<Mandatory_libraries>\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.InvalidElementStateException;\nimport org.openqa.selenium.JavascriptExecutor;\nimport org.openqa.selenium.Keys;\nimport org.openqa.selenium.NoSuchElementException;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.interactions.Action;\nimport org.openqa.selenium.interactions.Actions;\nimport org.openqa.selenium.remote.CapabilityType;\nimport org.openqa.selenium.remote.DesiredCapabilities;\nimport org.openqa.selenium.remote.RemoteWebDriver;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.Select;\nimport org.openqa.selenium.support.ui.WebDriverWait;\nimport stmJava.ActionResult;\nimport stmJava.CustomStep;\nimport java.util.Map;\n\n//</Mandatory_libraries>\n// Additional libraries might be declared here\n\n\n//<This_lines_must_not_be_modified>\n   public class testBlocksAndSteps_Copy extends ActionResult\n   {\n       /// <summary>\n       /// A method to perform a custom test step\n       /// </summary>\n       /// <param>\n       /// The method receive parameters:\n       /// \t* driver which is an instance of WebDriver or a mobile driver such as AndroidDriver\n       /// \n       /// \t* and a second optional parameter which can be a String or a String[] array.\n       /// \t  One Parameter : public ActionResult Execute(WebDriver driver)\n       /// \t  Two Parameters: public ActionResult Execute(WebDriver driver, String inputValue)\n       ///              or: public ActionResult Execute(WebDriver driver, String[] inputValue)\n       /// </param>\n       /// <returns>\n       ///  The method returns an ActionResult object which is expected to contain the step\n       ///  execution information, such as the status (true or false equivalent to pass or fail), details \n       ///  that may explain the fail cause or some extra information and  the path to find the file resulting \n       ///  of a screenshot.\n       /// </returns>\n       ///  Also it is possible to save a String value to Datasheet.\n       ///  e.g. 1:\n       ///   actionResult.SaveParameterValue(\"DT_ParamName\", paramValue);\n       ///   actionResult.SaveParameterValue(\"GDT_ParamName\", paramValueGlobal);\n       ///  e.g. 2:\n       ///   actionResult.columnName = \"DatasheetColumnName\";\n       ///   actionResult.propertyValue = \"Value to be saved\";\n       ///  Or save several values to Datasheet.\n       ///   actionResult.ColumnNames.add('DatasheetColumnName1');\n       ///   actionResult.PropertyValues.add(Value to be saved1);\n       ///   actionResult.ColumnNames.add('DatasheetColumnNameN');\n       ///   actionResult.PropertyValues.add(Value to be savedN);\n       //</This_lines_must_not_be_modified>\n       //<Mandatory_lines>\n       public ActionResult Execute(WebDriver driver, String inputValue) //replace WebDriver by AndroidDriver for mobile actions\n       {\n           ActionResult actionResult = new ActionResult();\n           actionResult.status = false;\n           actionResult.comments =  \"\";\n       //</Mandatory_lines>\n       ///////////////WORKSPACE START////////////////////////////////////////////////////////////////////////////////////////\n       \n\n\t\ttry {\n\t\t\tdriver.findElement(By.name(\"q\"));\n\t\t\tMap<String, String> example = actionResult.getIterationData();\n\t\t\tfor(Map.Entry<String, String> entry : example.entrySet()){\n\t\t\t\tactionResult.comments += \"Key: \" + entry.getKey() + \" value: \" + entry.getValue() + \"\\n\";\n\n\t\t\t}\n\n\t\t\tactionResult.status = true;\n\t\t} catch (Exception ex){\n\t\t\tactionResult.status = false;\n\t\t\tactionResult.comments = ex.getMessage();\n\t\t}\n        ///////////////WORKSPACE END////////////////////////////////////////////////////////////////////////////////////////\n       //</Mandatory_lines>\n       // Return results in ActionResult object\n           return actionResult;\n       }\n   }\n //</Mandatory_lines>\n\n",
+    "Name": "testBlocksAndSteps_Copy",
+    "Created": null,
+    "Modified": null
+  }
+]
