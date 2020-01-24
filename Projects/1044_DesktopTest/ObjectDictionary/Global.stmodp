@@ -1,0 +1,24 @@
+{
+  "TempId": 0,
+  "Name": "Global",
+  "ProjectId": 1044,
+  "DictionaryPageType": 1,
+  "Objects": [
+    {
+      "TempId": 61947,
+      "LocatorType": 3,
+      "Locator": "package-destination-hp-package",
+      "PageId": null,
+      "OuterHTML": null,
+      "Name": "destination"
+    },
+    {
+      "TempId": 61948,
+      "LocatorType": 3,
+      "Locator": "package-origin-hp-package",
+      "PageId": null,
+      "OuterHTML": null,
+      "Name": "origin"
+    }
+  ]
+}

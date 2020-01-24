@@ -1,0 +1,56 @@
+{
+  "TempId": 2327,
+  "Name": "Desktop_Objects",
+  "ProjectId": 1044,
+  "DictionaryPageType": 3,
+  "Objects": [
+    {
+      "TempId": 58782,
+      "LocatorType": 4,
+      "Locator": "Start",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "Start"
+    },
+    {
+      "TempId": 58783,
+      "LocatorType": 4,
+      "Locator": "File Explorer",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "FileExplorer"
+    },
+    {
+      "TempId": 60768,
+      "LocatorType": 4,
+      "Locator": "word",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "word"
+    },
+    {
+      "TempId": 60769,
+      "LocatorType": 4,
+      "Locator": "pp",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "powerpoint"
+    },
+    {
+      "TempId": 61941,
+      "LocatorType": 4,
+      "Locator": "Task View",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "taskView"
+    },
+    {
+      "TempId": 61942,
+      "LocatorType": 4,
+      "Locator": "Microsoft Edge",
+      "PageId": 2327,
+      "OuterHTML": null,
+      "Name": "Microsoft Edge"
+    }
+  ]
+}
