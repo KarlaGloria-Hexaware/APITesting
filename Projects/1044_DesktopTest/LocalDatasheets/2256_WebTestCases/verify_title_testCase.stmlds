@@ -1,0 +1,188 @@
+{
+  "TestCase": {
+    "TempId": 0,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": null,
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [],
+    "GRDomainNameandId": "Test@ef541fb5-36b7-4c18-9b6f-cdd32f7d7d15",
+    "qTestTestCaseId": null,
+    "Name": "verify_title_testCase",
+    "Created": null,
+    "Modified": null
+  },
+  "Parameters": [
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "1",
+          "ParameterId": 6695,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "2",
+          "ParameterId": 6695,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "Iteration",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "0",
+          "ParameterId": 6696,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "0",
+          "ParameterId": 6696,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "Skip",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "10",
+          "ParameterId": 6697,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "5",
+          "ParameterId": 6697,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "DT_Number",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "",
+          "ParameterId": 6698,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "",
+          "ParameterId": 6698,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "DT_new",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "20",
+          "ParameterId": 6699,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "20",
+          "ParameterId": 6699,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "DT_Param1",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "Segundo valor",
+          "ParameterId": 6700,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "Iteration": 2,
+          "Value": "Segundo valor",
+          "ParameterId": 6700,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 7184,
+      "Name": "DT_Param2",
+      "Created": null,
+      "Modified": null
+    }
+  ],
+  "Name": "verify_title_testCase",
+  "Created": null,
+  "Modified": null
+}
