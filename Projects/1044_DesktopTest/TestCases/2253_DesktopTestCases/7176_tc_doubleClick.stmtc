@@ -1,0 +1,160 @@
+[
+  {
+    "TempId": 7176,
+    "AUT": "",
+    "Description": "link to gr",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 7,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 6565,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 6565,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "2",
+              "ParameterId": 6565,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7176,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 6566,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "0",
+              "ParameterId": 6566,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "0",
+              "ParameterId": 6566,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7176,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 6567,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "Mr. Rodney X. Youngs III",
+              "ParameterId": 6567,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "Mr. Pedro H. Button Jr",
+              "ParameterId": 6567,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 7176,
+          "Name": "Name",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "tc_doubleClick",
+      "Created": null,
+      "Modified": null
+    },
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 17053,
+        "StepNumber": 1,
+        "ActionId": 34,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": 4,
+        "Screenshot": true,
+        "SkipStep": true,
+        "Description": null,
+        "Locator": "Desktop",
+        "Value": "",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 17054,
+        "StepNumber": 2,
+        "ActionId": 34,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": null,
+        "Locator": null,
+        "Value": null,
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "GRDomainNameandId": "Test@ef541fb5-36b7-4c18-9b6f-cdd32f7d7d15",
+    "qTestTestCaseId": null,
+    "Name": "tc_doubleClick",
+    "Created": null,
+    "Modified": null
+  }
+]

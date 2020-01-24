@@ -1,0 +1,56 @@
+[
+  {
+    "TempId": 7185,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 7,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": null,
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 17170,
+        "StepNumber": 1,
+        "ActionId": 1,
+        "ComponentId": null,
+        "CustomActionId": 2271,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "desktopTest",
+        "Locator": null,
+        "Value": null,
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "GRDomainNameandId": null,
+    "qTestTestCaseId": null,
+    "Name": "desktopTest",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 2271,
+    "Description": "",
+    "Code": "////<Mandatory_libraries>\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.InvalidElementStateException;\nimport org.openqa.selenium.JavascriptExecutor;\nimport org.openqa.selenium.Keys;\nimport org.openqa.selenium.NoSuchElementException;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.interactions.Action;\nimport org.openqa.selenium.remote.DesiredCapabilities;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.Select;\nimport org.openqa.selenium.support.ui.WebDriverWait;\nimport org.openqa.selenium.winium.WiniumDriver;\nimport org.sikuli.script.App;\nimport org.sikuli.script.FindFailed;\nimport org.sikuli.script.Pattern;\nimport org.sikuli.script.Screen;\n\nimport stmJava.ActionResult;\nimport stmJava.CustomStep;\n\n\n//</Mandatory_libraries>\n// Additional libraries might be declared here\n\n\n//<This_lines_must_not_be_modified>\n   public class desktopTest extends ActionResult\n   {\n       /// <summary>\n       /// A method to perform a custom test step\n       /// </summary>\n       /// <param>\n       /// The method receive parameters:\n       ///\t* driver which is an instance of WiniumDriver\n       /// \n       /// \t* and a second optional parameter which can be a String or a String[] array.\n       /// \t  One Parameter : public ActionResult Execute(WiniumDriver driver)\n       /// \t  Two Parameters: public ActionResult Execute(WiniumDriver driver, String inputValue)\n       ///              or: public ActionResult Execute(WiniumDriver driver, String[] inputValue)\n       /// </param>\n       /// <returns>\n       ///  The method returns an ActionResult object which is expected to contain the step\n       ///  execution information, such as the status (true or false equivalent to pass or fail), details \n       ///  that may explain the fail cause or some extra information and  the path to find the file resulting \n       ///  of a screenshot.\n       /// </returns>\n       ///  Also it is possible to save a String value to Datasheet.\n       ///  e.g. 1:\n       ///   actionResult.SaveParameterValue(\"DT_ParamName\", paramValue);\n       ///   actionResult.SaveParameterValue(\"GDT_ParamName\", paramValueGlobal);\n       ///  e.g. 2:\n       ///   actionResult.columnName = \"DatasheetColumnName\";\n       ///   actionResult.propertyValue = \"Value to be saved\";\n       ///  Or save several values to Datasheet.\n       ///   actionResult.ColumnNames.add('DatasheetColumnName1');\n       ///   actionResult.PropertyValues.add(Value to be saved1);\n       ///   actionResult.ColumnNames.add('DatasheetColumnNameN');\n       ///   actionResult.PropertyValues.add(Value to be savedN);\n       //</This_lines_must_not_be_modified>\n       //<Mandatory_lines>\n       public ActionResult Execute(WiniumDriver driver, String inputValue)\n       {\n           ActionResult actionResult = new ActionResult();\n           actionResult.status = false;\n           actionResult.comments =  \"\";\n       //</Mandatory_lines>\n       ///////////////WORKSPACE START////////////////////////////////////////////////////////////////////////////////////////  \n\tdriver.findElement(By.name(\"File Explorer\")).click();\n\tdriver.findElement(By.name(\"word\"));\n\tThread.sleep(2000);\n\n        ///////////////WORKSPACE END////////////////////////////////////////////////////////////////////////////////////////\n       //</Mandatory_lines>\n       // Return results in ActionResult object\n           return actionResult;\n       }\n   }\n //</Mandatory_lines>\n\n\n\n\n\n\n\n",
+    "Type": 2,
+    "Name": "desktopTest",
+    "Created": null,
+    "Modified": null
+  }
+]
