@@ -4,13 +4,6 @@
   "Name": "Default",
   "Parameters": [
     {
-      "Id": 2457,
-      "ProjectId": 1044,
-      "Key": "GDT_02",
-      "Value": "2",
-      "GlobalSheetId": null
-    },
-    {
       "Id": 2458,
       "ProjectId": 1044,
       "Key": "GDT_03",

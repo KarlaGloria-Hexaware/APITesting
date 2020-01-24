@@ -4,13 +4,6 @@
   "Name": "newDatasheet",
   "Parameters": [
     {
-      "Id": 2588,
-      "ProjectId": 1044,
-      "Key": "GDT_02",
-      "Value": "",
-      "GlobalSheetId": 33
-    },
-    {
       "Id": 2589,
       "ProjectId": 1044,
       "Key": "GDT_03",
