@@ -1,0 +1,291 @@
+[
+  {
+    "TempId": 5056,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 3412,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 3412,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "2",
+              "ParameterId": 3412,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 3413,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "0",
+              "ParameterId": 3413,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "1",
+              "ParameterId": 3413,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 3414,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "10",
+              "ParameterId": 3414,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "5",
+              "ParameterId": 3414,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "DT_Number",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 3415,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "",
+              "ParameterId": 3415,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "",
+              "ParameterId": 3415,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "DT_new",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 3416,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "20",
+              "ParameterId": 3416,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "20",
+              "ParameterId": 3416,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "DT_Param1",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 3417,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "Segundo valor",
+              "ParameterId": 3417,
+              "Skip": 0,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            },
+            {
+              "Iteration": 2,
+              "Value": "Segundo valor",
+              "ParameterId": 3417,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 5056,
+          "Name": "DT_Param2",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "verify_title_testCase",
+      "Created": null,
+      "Modified": null
+    },
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [
+      {
+        "TempId": 14478,
+        "StepNumber": 1,
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": true,
+        "SkipStep": false,
+        "Description": "Navigate",
+        "Locator": null,
+        "Value": "www.google.com",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 14479,
+        "StepNumber": 2,
+        "ActionId": 91,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": true,
+        "SkipStep": false,
+        "Description": "verify title",
+        "Locator": null,
+        "Value": "equals:Google",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 14480,
+        "StepNumber": 3,
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "wait",
+        "Locator": null,
+        "Value": "2",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 14481,
+        "StepNumber": 4,
+        "ActionId": 43,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "ImageRepositoryId": null,
+        "LocatorTypeId": 4,
+        "Screenshot": true,
+        "SkipStep": true,
+        "Description": "type",
+        "Locator": "q",
+        "Value": "hexaware",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Assertions": [],
+        "qTestStepId": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "GRDomainNameandId": null,
+    "qTestTestCaseId": null,
+    "Name": "verify_title_testCase",
+    "Created": null,
+    "Modified": null
+  }
+]
