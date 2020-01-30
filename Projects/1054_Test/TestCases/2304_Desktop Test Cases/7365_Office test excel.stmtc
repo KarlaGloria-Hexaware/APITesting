@@ -206,7 +206,7 @@
             "ComponentId": 4425,
             "ComponentStepId": 7000,
             "TestCase": null,
-            "Value": "enter+",
+            "Value": "ctrl+a+",
             "TempId": 0,
             "qTestStepKey": null,
             "Name": null,
