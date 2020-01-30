@@ -33111,7 +33111,7 @@
         "LocatorTypeId": 4,
         "Screenshot": false,
         "SkipStep": false,
-        "Description": "Make your text a bit bigger.",
+        "Description": "",
         "Locator": "Grow Font",
         "Value": null,
         "Status": "Pending",
