@@ -1,0 +1,16 @@
+{
+  "TempId": 0,
+  "Name": "Global",
+  "ProjectId": 1054,
+  "DictionaryPageType": 1,
+  "Objects": [
+    {
+      "TempId": 92025,
+      "LocatorType": 3,
+      "Locator": "object",
+      "PageId": null,
+      "OuterHTML": null,
+      "Name": "object"
+    }
+  ]
+}

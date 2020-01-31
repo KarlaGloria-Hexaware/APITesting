@@ -1,0 +1,16 @@
+{
+  "TempId": 2490,
+  "Name": "Desktop",
+  "ProjectId": 1054,
+  "DictionaryPageType": 3,
+  "Objects": [
+    {
+      "TempId": 92024,
+      "LocatorType": 4,
+      "Locator": "Start",
+      "PageId": 2490,
+      "OuterHTML": null,
+      "Name": "Start"
+    }
+  ]
+}
