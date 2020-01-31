@@ -8,7 +8,68 @@
     "TestCaseType": 7,
     "IsExecutable": true,
     "uri": "",
-    "DataSheet": null,
+    "DataSheet": {
+      "TestCase": null,
+      "Parameters": [
+        {
+          "TempId": 14137,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "1",
+              "ParameterId": 14137,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 8279,
+          "Name": "Iteration",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 14138,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "0",
+              "ParameterId": 14138,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 8279,
+          "Name": "Skip",
+          "Created": null,
+          "Modified": null
+        },
+        {
+          "TempId": 14139,
+          "Iterations": [
+            {
+              "Iteration": 1,
+              "Value": "one",
+              "ParameterId": 14139,
+              "Skip": 1,
+              "Name": null,
+              "Created": null,
+              "Modified": null
+            }
+          ],
+          "DataSheetId": 8279,
+          "Name": "DT_Parameter",
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "Name": "SublimeText",
+      "Created": null,
+      "Modified": null
+    },
     "Scenario": null,
     "Authentication": null,
     "TestSteps": [
