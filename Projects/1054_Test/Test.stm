@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "Test",
   "Description": "",
   "QTest_ProjectDomain": null,
@@ -22,7 +22,7 @@
               "StepNumber": 1,
               "Description": "Click on Start",
               "LocatorTypeId": 4,
-              "Locator": "Start",
+              "Locator": "Start - windows",
               "ActionId": 9,
               "ParameterName": "Click",
               "ParameterValue": null,
