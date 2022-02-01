@@ -1,0 +1,94 @@
+{
+  "TestCase": {
+    "TempId": 5,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 1,
+    "IsExecutable": true,
+    "uri": "",
+    "DataSheet": null,
+    "Scenario": null,
+    "Authentication": null,
+    "TestSteps": [],
+    "Headers": [],
+    "GalenGroups": [],
+    "GalenObjects": [],
+    "GalenSections": [],
+    "TagNames": null,
+    "GRDomainNameandId": null,
+    "qTestTestCaseId": null,
+    "Pester": null,
+    "ExternalDT": null,
+    "ExternalDTSheetName": null,
+    "Name": "Highlight23TC02",
+    "Created": null,
+    "Modified": null
+  },
+  "Parameters": [
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": "btnLogin",
+          "ParameterId": 16,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 13,
+      "IsEncrypted": false,
+      "IsShared": false,
+      "Name": "DT_Login",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": null,
+          "ParameterId": 0,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 13,
+      "IsEncrypted": false,
+      "IsShared": false,
+      "Name": "Iteration",
+      "Created": null,
+      "Modified": null
+    },
+    {
+      "TempId": 0,
+      "Iterations": [
+        {
+          "Iteration": 1,
+          "Value": null,
+          "ParameterId": 0,
+          "Skip": 0,
+          "Name": null,
+          "Created": null,
+          "Modified": null
+        }
+      ],
+      "DataSheetId": 13,
+      "IsEncrypted": false,
+      "IsShared": false,
+      "Name": "Skip",
+      "Created": null,
+      "Modified": null
+    }
+  ],
+  "Name": null,
+  "Created": null,
+  "Modified": null
+}
